@@ -541,34 +541,6 @@ a {
   width: calc((100% - 60px) / 3);
 }
 
-.works-list__overlay {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.works-list__overlay::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(47, 48, 58, 0.8);
-  z-index: 0;
-}
-
-.works-list__overay-title {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--primery-white-color);
-  z-index: 1;
-}
-
 /* Our team */
 .team {
   color: var(--primary-text-color);
@@ -653,7 +625,7 @@ a {
 .social-link {
   border-radius: 50%;
   padding: 12px;
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
   /* outline: 2px solid red; */
@@ -746,6 +718,10 @@ a {
 .mob-logo-down {
   margin-right: auto;
   margin-left: auto;
+}
+
+.footer-text {
+  width: 264px;
 }
 
 /* address */
