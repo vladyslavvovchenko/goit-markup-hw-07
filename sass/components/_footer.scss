@@ -1,0 +1,31 @@
+/* footer */
+
+.footer {
+    background-color: #2F303A;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-flex {
+    @media(min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    @media(min-width: 1200px){
+        justify-content: space-between;
+    }
+}
+
+.logo--white {
+    color: var(--primery-white-color);    
+}
+
+.mob-logo-down{
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,49 @@
+/* постоянные клиенты */
+
+.company-title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--second-text-coor);
+    // margin-bottom: 50px;
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
+}
+
+.company-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.company-list__item{
+    margin-top: 30px;
+    width: calc((100% - 30px) / 2);
+    @media (min-width: 768px) {
+        width: calc((100% - 60px) / 3);
+    }
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 150px) / 6);
+    }
+}
+
+.company-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 130px;
+    min-height: 92px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: background-color var(--main-tranzitions),
+    fill var(--main-tranzitions);
+    &:hover,
+    &:focus {
+        fill: var(--accent-hover-color);
+        border: 1px solid var(--accent-hover-color);
+    }
+}
+

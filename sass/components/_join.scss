@@ -1,0 +1,47 @@
+/* join */
+
+.join {
+    width: 206px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media(min-width: 768px){
+        margin: 0;
+        padding-bottom: 0;
+        padding-top: 5px;
+    }
+}
+
+.join-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primery-white-color);
+    margin-bottom: 20px;
+    @media screen and (min-width: 1200px){
+        text-align: start;
+    }
+}
+
+.social-networks-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link-footer {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    fill: var(--primery-white-color);
+    transition: background-color var(--main-tranzitions);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-hover-color);
+    }
+}
+

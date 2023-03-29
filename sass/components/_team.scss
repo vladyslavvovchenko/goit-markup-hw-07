@@ -1,0 +1,69 @@
+/* Our team */
+
+.team {
+    color: var(--primary-text-color);
+    background-color: #f5f4fa;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--second-text-coor);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.14;
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 50px;
+            font-size: 36px;
+            line-height: 1.17;
+        }
+}
+
+.peoples {
+    justify-content: space-between;
+    padding: 0;
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+}
+
+.card {
+    max-width: 450px;
+    text-align: center;
+    background-color: var(--primery-white-color);
+    padding-bottom: 24px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    /* outline: 2px solid blue; */
+    &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+        @media screen and (min-width: 768px){
+            max-width: calc((100% - 30px) / 2);
+            &:not(:last-child) {
+                    margin-bottom: 0px;
+        }
+    }
+}
+
+.peoples-title {
+    color: var(--second-text-coor);
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.profession {
+    margin-top: 10px;
+}
+
