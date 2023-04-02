@@ -16,7 +16,7 @@
     font-size: 28px;
     line-height: 1.14;
         @media screen and (min-width: 1200px) {
-            margin-bottom: 50px;
+            margin-bottom: 72px;
             font-size: 36px;
             line-height: 1.17;
         }
@@ -28,7 +28,7 @@
     @media screen and (min-width: 768px){
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        // gap: 30px;
 
     }
 }
@@ -37,7 +37,7 @@
     max-width: 450px;
     text-align: center;
     background-color: var(--primery-white-color);
-    padding-bottom: 24px;
+    padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -47,7 +47,7 @@
             margin-bottom: 30px;
         }
         @media screen and (min-width: 768px){
-            max-width: calc((100% - 30px) / 2);
+            width: calc((100% - 72px) / 4);
             &:not(:last-child) {
                     margin-bottom: 0px;
         }
@@ -56,14 +56,14 @@
 
 .peoples-title {
     color: var(--second-text-coor);
-    margin-top: 30px;
+    margin-top: 32px;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
 }
 
 .profession {
-    margin-top: 10px;
+    margin-top: 8px;
 }
 

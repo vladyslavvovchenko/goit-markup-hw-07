@@ -35,13 +35,13 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--soc-icon-button-color);
     padding: 12px;
-    fill: var(--primery-white-color);
+    fill: var(--fill-soc-icons);
     transition: background-color var(--main-tranzitions);
     &:hover,
     &:focus {
-        background-color: var(--accent-hover-color);
+        background-color: var(--footer-fill-soc-icons);
     }
 }
 

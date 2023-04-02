@@ -1,21 +1,27 @@
 /* button */
 
 .button-mar {
-    margin-top: 30px;
+    margin-top: 48px;
 }
 
 .button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 50px;
+    width: 169px;
+    height: 56px;
     border-radius: 4px;
     cursor: pointer;
     color: var(--primery-white-color);
-    background-color: var(--accent-hover-color);
-    font-weight: bold;
+    background-color: var(--soc-icon-button-color);
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover{
+    background-color: var(--accent-hover-color);
 }

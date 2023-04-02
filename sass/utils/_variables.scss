@@ -1,8 +1,17 @@
 :root {
-    --primary-text-color: #757575;
-    --second-text-coor: #212121;
-    --accent-hover-color: #2196f3;
+    --primary-text-color: #434455;
+    --second-text-coor: #2E2F42;
+    --accent-hover-color: #404BBF;
     --primery-white-color: #ffffff;
+    --secondary-ccolor: #F4F4FD;
+
+    --soc-icon-button-color: #4D5AE5;
+    --fill-soc-icons: #F4F4FD;
+    --footer-fill-soc-icons: #31D0AA;
+
+    --portfolio-button: #4D5AE5;
+    --bg-portfolio-button: #F4F4FD;
+
     --main-tranzitions: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -12,13 +21,17 @@ body {
     background-color: var(--primery-white-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
+    // font-size: 16px;
+    // font-weight: 400;
+    // line-height: 1.5;
 }
 
 /* img */
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
+    
 }

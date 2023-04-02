@@ -2,17 +2,19 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     display: flex;
+    fill: #2E2F42;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--primery-white-color);
-    transition: fill var(--main-tranzitions);
+    background-color: #E7E9FC;
+    transition: fill var(--main-tranzitions), background-color var(--main-tranzitions);
     &:hover {
-        fill: var(--accent-hover-color);
+        fill: #FFFFFF;
+        background-color: #404BBF;
     }
 }
 

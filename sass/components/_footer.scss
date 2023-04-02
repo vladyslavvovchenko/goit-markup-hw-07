@@ -1,11 +1,11 @@
 /* footer */
 
 .footer {
-    background-color: #2F303A;
+    background-color:#2E2F42;
     margin-left: auto;
     margin-right: auto;
     padding: 60px 0;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.71;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .logo--white {
-    color: var(--primery-white-color);    
+    color: #F4F4FD;    
 }
 
 .mob-logo-down{
@@ -32,4 +32,5 @@
 
 .footer-text{
     width: 264px;
+    color: #F4F4FD;
 }
