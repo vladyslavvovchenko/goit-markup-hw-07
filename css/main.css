@@ -79,7 +79,7 @@ a {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1200px;
+    width: 1158px;
   }
 }
 
@@ -330,7 +330,7 @@ a {
 .hero {
   max-width: 100%;
   background-color: #2F303A;
-  padding: 118px 0;
+  padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/studio-images/mobile-images/hero-mobile-1x.jpg);
   margin-left: auto;
   margin-right: auto;
@@ -420,7 +420,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .section {
-    padding: 94px 0;
+    padding: 120px 0;
   }
 }
 
@@ -612,6 +612,7 @@ a {
   font-size: 28px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 72px;
   color: var(--second-text-coor);
 }
 @media screen and (min-width: 1200px) {
@@ -623,11 +624,10 @@ a {
 .company-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 30px;
+  column-gap: 24px;
 }
 
 .company-list__item {
-  margin-top: 30px;
   width: calc((100% - 30px) / 2);
 }
 @media (min-width: 768px) {
@@ -646,7 +646,7 @@ a {
   justify-content: center;
   align-items: center;
   min-width: 130px;
-  min-height: 92px;
+  min-height: 88px;
   fill: #8E8F99;
   border: 1px solid #8E8F99;
   border-radius: 4px;
@@ -662,7 +662,7 @@ a {
   background-color: #2E2F42;
   margin-left: auto;
   margin-right: auto;
-  padding: 60px 0;
+  padding: 100px 0;
   font-size: 16px;
   line-height: 1.71;
 }
@@ -686,7 +686,7 @@ a {
 
 .mob-logo-down {
   margin-right: auto;
-  margin-left: auto;
+  margin-bottom: 17px;
 }
 
 .footer-text {
@@ -731,27 +731,17 @@ a {
 
 /* join */
 .join {
-  width: 206px;
+  width: 208px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
-@media (min-width: 768px) {
-  .join {
-    margin: 0;
-    padding-bottom: 0;
-    padding-top: 5px;
-  }
-}
-
 .join-title {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   color: var(--primery-white-color);
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 @media screen and (min-width: 1200px) {
   .join-title {
@@ -765,12 +755,13 @@ a {
 }
 
 .social-link-footer {
-  display: block;
-  width: 44px;
-  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--soc-icon-button-color);
-  padding: 12px;
   fill: var(--fill-soc-icons);
   transition: background-color var(--main-tranzitions);
 }
@@ -784,13 +775,12 @@ a {
 }
 @media screen and (min-width: 768px) {
   .subscription {
-    min-width: 450px;
     margin-top: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
   .subscription {
-    min-width: 570px;
+    max-width: 453px;
     margin-top: 0px;
   }
 }
@@ -803,23 +793,23 @@ a {
 
 @media screen and (min-width: 1200px) {
   .subscription-form {
-    min-width: 358px;
-    margin-right: 12px;
+    width: 264px;
+    margin-right: 24px;
   }
 }
 
 .subscription-input {
   width: 100%;
-  height: 50px;
+  height: 40px;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
   background-color: inherit;
   outline: none;
-  padding: 0 16px;
+  padding: 8px 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 12px;
+  line-height: 2;
 }
 
 ::placeholder {
@@ -839,11 +829,13 @@ a {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    width: 165px;
+    height: 40px;
   }
 }
 
 .send-svg {
-  margin-left: 10px;
+  margin-left: 16px;
 }
 
 /* backdrop */
@@ -876,7 +868,7 @@ body.modal-open-desk {
   left: 50%;
   transform: translate(-50%, -50%);
   width: calc(100% - 30px);
-  padding: 40px;
+  padding: 24px;
   background: #FCFCFC;
   border-radius: 4px;
 }
@@ -887,7 +879,7 @@ body.modal-open-desk {
 }
 @media screen and (min-width: 1200px) {
   .modal {
-    max-width: 528px;
+    max-width: 408px;
   }
 }
 
@@ -993,7 +985,6 @@ textarea::placeholder {
 
 .label-checkbox {
   display: block;
-  text-align: center;
   margin-top: 20px;
   font-weight: 400;
   font-size: 14px;
@@ -1066,12 +1057,13 @@ textarea::placeholder {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  transition: color var(--main-tranzitions), background-color var(--main-tranzitions), box-shadow var(--main-tranzitions);
+  transition: color var(--main-tranzitions), background-color var(--main-tranzitions), box-shadow var(--main-tranzitions), border var(--main-tranzitions);
 }
 .portfolio-button:hover, .portfolio-button:focus {
   color: var(--primery-white-color);
   background-color: var(--accent-hover-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--accent-hover-color);
 }
 
 /* меню */

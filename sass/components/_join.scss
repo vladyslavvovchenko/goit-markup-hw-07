@@ -1,15 +1,13 @@
 /* join */
 
 .join {
-    width: 206px;
+    width: 208px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
     @media(min-width: 768px){
-        margin: 0;
-        padding-bottom: 0;
-        padding-top: 5px;
+        
     }
 }
 
@@ -19,7 +17,7 @@
     font-size: 14px;
     line-height: 1.14;
     color: var(--primery-white-color);
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     @media screen and (min-width: 1200px){
         text-align: start;
     }
@@ -31,12 +29,14 @@
 }
 
 .social-link-footer {
-    display: block;
-    width: 44px;
-    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: var(--soc-icon-button-color);
-    padding: 12px;
+    
     fill: var(--fill-soc-icons);
     transition: background-color var(--main-tranzitions);
     &:hover,

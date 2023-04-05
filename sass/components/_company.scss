@@ -5,6 +5,7 @@
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 72px;
     color: var(--second-text-coor);
     // margin-bottom: 50px;
     @media screen and (min-width: 1200px) {
@@ -15,11 +16,10 @@
 .company-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 30px;
+    column-gap: 24px;
 }
 
 .company-list__item{
-    margin-top: 30px;
     width: calc((100% - 30px) / 2);
     @media (min-width: 768px) {
         width: calc((100% - 60px) / 3);
@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: center;
     min-width: 130px;
-    min-height: 92px;
+    min-height: 88px;
     fill: #8E8F99;
     border: 1px solid #8E8F99;
     border-radius: 4px;

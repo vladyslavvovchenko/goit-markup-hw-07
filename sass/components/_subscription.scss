@@ -3,11 +3,11 @@
 .subscription {
     max-width: 450px;
     @media screen and (min-width: 768px) {
-        min-width: 450px;
+        
         margin-top: 60px;
     }
     @media screen and (min-width: 1200px){
-        min-width: 570px;
+        max-width: 453px;
         margin-top: 0px;
     }
 }
@@ -20,23 +20,23 @@
 
 .subscription-form{
     @media screen and (min-width: 1200px){
-        min-width: 358px;
-        margin-right: 12px;
+        width: 264px;
+        margin-right: 24px;
     }
 }
 
 .subscription-input {
     width: 100%;
-    height: 50px;
+    height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     background-color: inherit;
     outline: none;
-    padding: 0 16px;
+    padding: 8px 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 12px;
+    line-height: 2;
 }
 
 ::placeholder{
@@ -51,13 +51,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
     @media screen and (min-width: 1200px){
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
+        width: 165px;
+        height: 40px;
     }
 }
 
 .send-svg {
-    margin-left: 10px;
+    margin-left: 16px;
 }
