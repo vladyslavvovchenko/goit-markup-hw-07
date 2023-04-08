@@ -1,18 +1,20 @@
 /* form */
 
 .form {
+    margin-top: 48px;
     margin-right: auto;
     margin-left: auto;
     color: #8E8F99;
 }
 
 .form-text {
-    margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.02em;
     color: var(--second-text-coor)
 }
 
@@ -23,6 +25,9 @@
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
+    &:nth-child(n + 1) {
+            margin-top: 8px;
+        }
 }
 
 .input-pos {
@@ -35,7 +40,6 @@ input {
 
 .input {
     display: block;
-    margin-bottom: 10px;
     min-height: 40px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -74,19 +78,21 @@ textarea {
     resize: none;
     height: 120px;
     overflow-y: auto;
-    margin-bottom: 20px;
+    
     &::placeholder {
         color: rgba(117, 117, 117, 0.5);
     }
 }
 
 .label-checkbox {
-    display: block;
+    display: flex;
+    align-items: end;
     // text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
+
 }
 
 .checkbox {
@@ -109,7 +115,7 @@ textarea {
     margin-right: 8px;
     border-radius: 2px;
     background-color: #FCFCFC;
-    border: 1px solid rgba(0, 0, 0, 0.1);;
+    border: 1px solid rgba(46, 47, 66, 0.4);;
     // background-image: url(../../images/checkbox.svg);
     .checkbox:checked+& {
         background-color: #404BBF;
@@ -120,6 +126,7 @@ textarea {
 }
 
 .checkbox-link {
+    margin-left: 3px;
     color: #4D5AE5;
     text-decoration: underline;
 }
