@@ -3,7 +3,8 @@
 .hero {
     max-width: 100%;
     background-color: #2F303A;
-    padding: 188px 0;
+    
+    padding: 112px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/studio-images/mobile-images/hero-mobile-1x.jpg);
     margin-left: auto;
     margin-right: auto;
@@ -16,6 +17,7 @@
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/studio-images/mobile-images/hero-mobile-2x.jpg);
         }
     @media screen and (min-width: 768px) {
+        padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/studio-images/tablet-images/hero-tablet-1x.jpg);
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
@@ -23,12 +25,12 @@
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/studio-images/tablet-images/hero-tablet-2x.jpg);
             }
     }
-    @media screen and (min-width: 1200px) {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio-images/desktop-images/hero-desktop-1x.jpg);
+    @media screen and (min-width: 1158px) {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/studio-images/desktop-images/hero-desktop-1x.jpg);
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/studio-images/desktop-images/hero-desktop-2x.jpg);
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images//studio-images/desktop-images/hero-desktop-2x.jpg);
             }
     }
 }
@@ -40,8 +42,8 @@
     max-width: 360px;
     color: var(--primery-white-color);
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

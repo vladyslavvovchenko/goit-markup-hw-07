@@ -10,12 +10,12 @@
 .team-title {
     display: block;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 72px;
     color: var(--second-text-coor);
     font-weight: 700;
-    font-size: 28px;
-    line-height: 1.14;
-        @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.1;
+        @media screen and (min-width: 1158px) {
             margin-bottom: 72px;
             font-size: 36px;
             line-height: 1.17;
@@ -34,8 +34,11 @@
 }
 
 .card {
-    max-width: 450px;
+    max-width: 264px;
     text-align: center;
+    
+    margin-right: auto;
+    margin-left: auto;
     background-color: var(--primery-white-color);
     padding-bottom: 32px;
     border-radius: 0px 0px 4px 4px;
