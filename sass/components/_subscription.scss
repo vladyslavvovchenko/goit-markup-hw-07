@@ -1,25 +1,25 @@
 /* subscription */
 
 .subscription {
-    max-width: 450px;
+    max-width: 396px;
     @media screen and (min-width: 768px) {
         
         margin-top: 60px;
     }
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1158px){
         max-width: 453px;
         margin-top: 0px;
     }
 }
 
 .subscription-flex {
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1158px){
         display: flex;
     }
     }
 
 .subscription-form{
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1158px){
         width: 264px;
         margin-right: 24px;
     }
@@ -45,14 +45,16 @@
     
 
 .subscription-button {
+    width: 165px;
+    height: 40px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1158px){
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;

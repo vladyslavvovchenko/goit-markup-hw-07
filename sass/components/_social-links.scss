@@ -1,20 +1,24 @@
 .social-networks {
     /* outline: 2px solid blue;  */
     display: flex;
-    margin-top: 8px;
-    margin-right: auto;
-    margin-left: auto;
-    justify-content: space-around;
-    // max-width: 206px;
+    // margin-top: 8px;
+    // margin-right: auto;
+    // margin-left: auto;
     
+    // justify-content: space-around;
+    // max-width: 206px;
+}
+
+.social-networks__item{
+    margin-right: 56px;
 }
 
 .social-link {
     border-radius: 50%;
-    padding: 12px;
+    padding: 8px;
     display: flex;
-    width: 40px;
-    height: 40px;
+    justify-content: center;
+    align-items: center;
     /* outline: 2px solid red; */
     fill: var(--fill-soc-icons);
     background-color: var(--soc-icon-button-color);

@@ -4,6 +4,7 @@
     width: 208px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
     // padding-top: 60px;
     // padding-bottom: 60px;
     @media(min-width: 768px){
@@ -14,8 +15,8 @@
 .join-title {
     text-align: center;
     font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
+    font-size: 16px;
+    line-height: 1.5;
     color: var(--primery-white-color);
     margin-bottom: 16px;
     @media screen and (min-width: 1200px){

@@ -133,7 +133,7 @@ a {
 }
 
 .header__logo {
-  padding: 16px 0;
+  padding: 25px 0;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
@@ -240,10 +240,13 @@ a {
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--primery-white-color);
-  padding: 48px 40px;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 1.17;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 35px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--second-text-coor);
   transform: translateY(0%);
@@ -260,17 +263,25 @@ a {
 }
 
 .mob-button-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
   background-color: transparent;
   position: absolute;
-  top: 10px;
-  right: 15px;
+  padding: 8px;
+  border: 1px solid #E7E9FC;
+  border-radius: 50%;
+  top: 24px;
+  right: 24px;
 }
 .mob-button-close:hover, .mob-button-close:focus {
   fill: var(--accent-hover-color);
 }
 
 .mob-nav__item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .mob-nav__link {
@@ -287,12 +298,16 @@ a {
 }
 
 .mob-contacts {
-  margin: 64px 0px;
+  margin: 48px 0px;
+}
+
+.mob-contacts__item:not(:last-child) {
+  margin-bottom: 40px;
 }
 
 .mob-contacts__tel {
   font-size: 34px;
-  color: var(--accent-hover-color);
+  color: #4D5AE5;
   margin-bottom: 32px;
 }
 
@@ -432,6 +447,13 @@ a {
   .section {
     padding: 120px 0;
   }
+}
+
+.section-portfolio {
+  padding: 48px 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primery-white-color);
 }
 
 /* description */
@@ -614,18 +636,18 @@ a {
 .social-networks {
   /* outline: 2px solid blue;  */
   display: flex;
-  margin-top: 8px;
-  margin-right: auto;
-  margin-left: auto;
-  justify-content: space-around;
+}
+
+.social-networks__item {
+  margin-right: 56px;
 }
 
 .social-link {
   border-radius: 50%;
-  padding: 12px;
+  padding: 8px;
   display: flex;
-  width: 40px;
-  height: 40px;
+  justify-content: center;
+  align-items: center;
   /* outline: 2px solid red; */
   fill: var(--fill-soc-icons);
   background-color: var(--soc-icon-button-color);
@@ -658,7 +680,7 @@ a {
 }
 
 .company-list__item {
-  width: calc((100% - 48px) / 2);
+  width: calc((100% - 16px) / 2);
 }
 @media (min-width: 768px) {
   .company-list__item {
@@ -694,7 +716,7 @@ a {
   margin-right: auto;
   padding: 96px 0;
   font-size: 16px;
-  line-height: 1.71;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -723,6 +745,7 @@ a {
 .footer-text {
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 72px;
   width: 268px;
   color: #F4F4FD;
 }
@@ -767,12 +790,13 @@ a {
   width: 208px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
 }
 .join-title {
   text-align: center;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--primery-white-color);
   margin-bottom: 16px;
 }
@@ -804,27 +828,27 @@ a {
 
 /* subscription */
 .subscription {
-  max-width: 450px;
+  max-width: 396px;
 }
 @media screen and (min-width: 768px) {
   .subscription {
     margin-top: 60px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .subscription {
     max-width: 453px;
     margin-top: 0px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .subscription-flex {
     display: flex;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .subscription-form {
     width: 264px;
     margin-right: 24px;
@@ -850,14 +874,16 @@ a {
 }
 
 .subscription-button {
+  width: 165px;
+  height: 40px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .subscription-button {
     margin-top: 0px;
     margin-left: 0px;
@@ -921,8 +947,7 @@ body.modal-open-desk {
   position: absolute;
   top: 24px;
   right: 24px;
-  width: 24px;
-  height: 24px;
+  padding: 8px;
   display: flex;
   fill: #2E2F42;
   justify-content: center;
@@ -1074,15 +1099,15 @@ textarea::placeholder {
   margin-bottom: 40px;
   justify-content: flex-start;
   /* outline: 2px solid orange; */
-  row-gap: 15px;
-  column-gap: 8px;
+  row-gap: 16px;
+  column-gap: 24px;
 }
 @media screen and (min-width: 768px) {
   .filter {
     justify-content: center;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .filter {
     column-gap: 24px;
   }
