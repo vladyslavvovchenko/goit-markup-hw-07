@@ -28,7 +28,10 @@
     @media screen and (min-width: 768px){
         display: flex;
         flex-wrap: wrap;
-        // gap: 30px;
+        column-gap: 24px;
+        row-gap: 64px;
+        padding-left: 88px;
+        padding-right: 88px;
 
     }
 }
@@ -50,7 +53,7 @@
             margin-bottom: 30px;
         }
         @media screen and (min-width: 768px){
-            width: calc((100% - 72px) / 4);
+            width: calc((100% - 24px) / 2);
             &:not(:last-child) {
                     margin-bottom: 0px;
         }

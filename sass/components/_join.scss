@@ -7,9 +7,9 @@
     margin-bottom: 72px;
     // padding-top: 60px;
     // padding-bottom: 60px;
-    @media(min-width: 768px){
-        
-    }
+    @media screen and (min-width: 768px) {
+            margin: 0px;
+        }
 }
 
 .join-title {
@@ -19,8 +19,9 @@
     line-height: 1.5;
     color: var(--primery-white-color);
     margin-bottom: 16px;
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 768px){
         text-align: start;
+        font-weight: 500;
     }
 }
 

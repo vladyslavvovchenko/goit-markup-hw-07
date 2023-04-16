@@ -4,10 +4,11 @@
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
+        column-gap: 24px;
+        row-gap: 72px;
     }       
     @media screen and (min-width: 1200px) {
         display: flex;
@@ -54,9 +55,14 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 0.9;
+    @media screen and (min-width: 768px) {
+        text-align: left;
+            font-weight: 700;
+            line-height: 1.11;
+        }
     @media screen and (min-width: 1158px) {
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
+            // font-weight: 500;
+            // font-size: 20px;
+            // line-height: 1.2;
         }
 }

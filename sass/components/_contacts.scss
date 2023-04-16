@@ -13,6 +13,12 @@
 
 .contacts__item:not(:last-child) {
     margin-right: 40px;
+    @media screen and (min-width: 768px) {
+            margin-right: 0;
+            &:not(:last-child) {
+                    margin-bottom: 12px;
+                }
+        }
     // @media screen and (min-width: 768px) and (max-width: 1199px) {
     //         margin-right: 0;
     //         margin-bottom: 10px;;
@@ -35,7 +41,10 @@
         color: var(--accent-hover-color);
     }
     @media screen and (min-width: 768px) {
-        // padding: 0;
+        padding: 0px;
+        font-size: 12px;
+        
+        
     }
     @media screen and (min-width: 1200px){
         

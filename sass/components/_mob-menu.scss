@@ -38,7 +38,7 @@
     height: 24px;
     background-color: transparent;
     position: absolute;
-    padding: 8px;
+    // padding: 8px;
     border: 1px solid #E7E9FC;
     border-radius: 50%;
     top: 24px;
@@ -88,10 +88,11 @@
 
 .mob-social-networks {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    // flex-wrap: wrap;
     font-size: 18px;
     line-height: 1.22;
-    color: var(--accent-hover-color);
+    
 }
 
 .mob-social-item{
@@ -108,7 +109,22 @@
 }
 
 .mob-social-link {
-    color: var(--accent-hover-color);
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        /* outline: 2px solid red; */
+    fill: var(--fill-soc-icons);
+    background-color: var(--soc-icon-button-color);
+    transition: background-color var(--main-tranzitions);
+    
+        &:hover,
+        &:focus {
+            background-color: var(--accent-hover-color);
+    
+        }
+    
 }
 
 
