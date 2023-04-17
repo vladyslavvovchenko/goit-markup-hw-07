@@ -79,7 +79,7 @@ a {
 }
 @media (min-width: 1158px) {
   .container {
-    width: 1128px;
+    width: 1160px;
   }
 }
 
@@ -102,6 +102,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .mob-button-open {
   display: block;
   background-color: transparent;
@@ -157,6 +158,11 @@ a {
     display: flex;
   }
 }
+@media screen and (min-width: 1158px) {
+  .site-nav {
+    margin-left: 76px;
+  }
+}
 
 .site-nav__link {
   color: var(--second-text-coor);
@@ -202,7 +208,7 @@ a {
     display: block;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .contacts {
     display: flex;
     margin-left: auto;
@@ -218,6 +224,12 @@ a {
   }
   .contacts__item:not(:last-child):not(:last-child) {
     margin-bottom: 12px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .contacts__item:not(:last-child):not(:last-child) {
+    margin-bottom: 0px;
+    margin-right: 40px;
   }
 }
 
@@ -242,6 +254,12 @@ a {
     font-size: 12px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .contacts__link {
+    font-size: 16px;
+  }
+}
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -474,7 +492,7 @@ a {
   background-color: var(--primery-white-color);
   padding: 96px 0;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .section {
     padding: 120px 0;
   }
@@ -492,30 +510,24 @@ a {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   .description {
+    font-weight: 400;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .description {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 .description__items {
   width: 100%;
-  font-weight: 500;
 }
 .description__items:not(:last-child) {
   margin-bottom: 72px;
 }
-@media screen and (min-width: 768px) and (max-width: 1158px) {
+@media screen and (min-width: 768px) {
   .description__items {
     max-width: calc(50% - 15px);
   }
@@ -558,12 +570,20 @@ a {
     line-height: 1.11;
   }
 }
+@media screen and (min-width: 1158px) {
+  .description__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
 /* чем мы занимаемся */
 .works {
-  padding-bottom: 94px;
+  padding-bottom: 120px;
   display: none;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .works {
     display: block;
   }
@@ -609,13 +629,6 @@ a {
   font-size: 36px;
   line-height: 1.1;
 }
-@media screen and (min-width: 1158px) {
-  .team-title {
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.17;
-  }
-}
 
 .peoples {
   justify-content: space-between;
@@ -652,6 +665,11 @@ a {
   }
   .card:not(:last-child) {
     margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: calc((100% - 72px) / 4);
   }
 }
 
