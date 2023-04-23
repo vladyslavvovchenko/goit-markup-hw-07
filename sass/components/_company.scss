@@ -20,9 +20,12 @@
     row-gap: 72px;
     @media (min-width: 768px) {
             column-gap: 24px;
-            padding-left: 88px;
-            padding-right: 88px;
+            padding-left: 90px;
+            padding-right: 90px;
         }
+    @media (min-width: 1158px) {
+        padding: 0;
+    }
 }
 
 .company-list__item{
@@ -30,7 +33,7 @@
     @media (min-width: 768px) {
         width: calc((100% - 48px) / 3);
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1158px) {
         width: calc((100% - 120px) / 6);
     }
 }

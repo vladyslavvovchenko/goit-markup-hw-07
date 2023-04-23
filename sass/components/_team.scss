@@ -26,10 +26,12 @@
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 64px;
-        padding-left: 88px;
-        padding-right: 88px;
-
+        padding-left: 90px;
+        padding-right: 90px;
     }
+        @media screen and (min-width: 1158px) {
+            padding: 0;
+        }
 }
 
 .card {
@@ -54,7 +56,7 @@
                     margin-bottom: 0px;
         }
     }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1158px) {
             width: calc((100% - 72px) / 4);
     }
 }

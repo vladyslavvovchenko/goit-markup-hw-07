@@ -8,6 +8,9 @@
         row-gap: 72px;
         column-gap: 24px;
     }
+    @media screen and (min-width: 1158px) {
+        row-gap: 48px;
+    }    
 }
 
 .services {
@@ -35,7 +38,7 @@
         width: calc((100% - 24px)/2);
         }
     @media screen and (min-width: 1158px){
-        width: calc((100% - 60px) / 3);
+        width: calc((100% - 48px) / 3);
     }
 }
 
