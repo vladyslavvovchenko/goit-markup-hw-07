@@ -63,8 +63,7 @@ input {
     top: 50%;
     left: 12px;
     transition: fill var(--main-tranzitions);
-    width: 18px;
-    height: 18px;
+    fill: #2E2F42;
     .input:focus+& {
         fill: #4D5AE5;
     }

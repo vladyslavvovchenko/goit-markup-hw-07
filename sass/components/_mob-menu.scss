@@ -89,9 +89,12 @@
 .mob-social-networks {
     display: flex;
     justify-content: space-between;
-    // flex-wrap: wrap;
     font-size: 18px;
     line-height: 1.22;
+    @media screen and (min-width: 428px){
+        column-gap: 56px;
+        justify-content: flex-start;
+    }
     
 }
 

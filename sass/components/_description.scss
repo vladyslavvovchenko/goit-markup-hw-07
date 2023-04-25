@@ -55,11 +55,11 @@
     color: var(--second-text-coor);
     font-weight: bold;
     font-size: 36px;
-    line-height: 0.9;
+    line-height: 1.11;
     @media screen and (min-width: 768px) {
         text-align: left;
-            font-weight: 700;
-            line-height: 1.11;
+        font-weight: 700;
+            
         }
     @media screen and (min-width: 1158px) {
             font-weight: 500;
